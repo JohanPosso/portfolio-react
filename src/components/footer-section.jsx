@@ -4,7 +4,6 @@ const FooterSection = () => {
   const axios = useAxios();
   const [data, setData] = useState([]);
   const [socialMediaData, setSocialMediaData] = useState([]);
-  console.log(socialMediaData);
   useEffect(() => {
     const userData = async () => {
       axios
@@ -28,7 +27,7 @@ const FooterSection = () => {
   return (
     <footer className="ftco-footer ftco-section">
       {data.map((item, index) => (
-        <div className="container">
+        <div key={index} className="container">
           <div className="row mb-5">
             <div className="col-md">
               <div className="ftco-footer-widget mb-4">

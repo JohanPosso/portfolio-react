@@ -47,6 +47,7 @@ const SkillsSection = () => {
         <div style={{ gridGap: "2px" }} className="row">
           {itemsToShow.map((item, index) => (
             <div
+              key={index}
               className="cardskills container mb-3 col-3 "
               bis_skin_checked="1"
             >
@@ -65,6 +66,7 @@ const SkillsSection = () => {
         <div style={{ gridGap: "2px" }} className="row">
           {itemsToShowFramework.map((item, index) => (
             <div
+              key={index}
               className="cardskills container mb-3 col-3 "
               bis_skin_checked="1"
             >
@@ -82,6 +84,7 @@ const SkillsSection = () => {
         <div style={{ gridGap: "2px" }} className="row">
           {itemsToShowStyle.map((item, index) => (
             <div
+              key={index}
               className="cardskills container mb-3 col-3 "
               bis_skin_checked="1"
             >
@@ -99,6 +102,7 @@ const SkillsSection = () => {
         <div style={{ gridGap: "2px" }} className="row">
           {itemsToShowOthers.map((item, index) => (
             <div
+              key={index}
               className="cardskills container mb-3 col-3 "
               bis_skin_checked="1"
             >

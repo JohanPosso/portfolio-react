@@ -77,7 +77,7 @@ const HomeSection = () => {
                         </div>
                       </a>
                       <a
-                        href={socialMedia.link}
+                        href={socialMedia?.link}
                         className="btn btn-white btn-outline-white py-3 px-4"
                         target="_blank"
                         rel="noreferrer"

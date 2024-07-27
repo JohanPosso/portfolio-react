@@ -73,7 +73,7 @@ const AboutSection = () => {
               </div>
               <div className="counter-wrap d-flex mt-md-3">
                 <div className="text">
-                  <p>
+                  <div>
                     <a
                       href="https://www.example.com"
                       className="btn btn-primary py-3 px-3"
@@ -82,7 +82,7 @@ const AboutSection = () => {
                         Download CV
                       </div>
                     </a>
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>
