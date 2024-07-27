@@ -124,10 +124,7 @@ const ContactSection = () => {
           </div>
 
           <div className="col-md-6 d-flex">
-            <div
-              className="img"
-              // style="background-image: url(images/about.jpg)"
-            >
+            <div className="img">
               <img style={estilo} src="/images/about.jpg" alt="" />
             </div>
           </div>

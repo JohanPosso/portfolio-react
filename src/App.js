@@ -14,10 +14,6 @@ import NavBar from "./components/navbar-section";
 import ResumeView from "./components/resume-view";
 
 function App() {
-  const estilo = {
-    width: "100%",
-  };
-
   return (
     <Router>
       <div className="App">

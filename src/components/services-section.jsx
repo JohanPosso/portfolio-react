@@ -16,7 +16,7 @@ const ServiceSection = () => {
         </div>
         <div className="row">
           <div className="col-md-4 text-center d-flex ">
-            <a href="#seccion-interna" className="services-1">
+            <a href="https://www.example.com" className="services-1">
               <span className="icon">
                 <i className="flaticon-analysis"></i>
               </span>
@@ -26,7 +26,7 @@ const ServiceSection = () => {
             </a>
           </div>
           <div className="col-md-4 text-center d-flex ">
-            <a href="#seccion-interna" className="services-1">
+            <a href="https://www.example.com" className="services-1">
               <span className="icon">
                 <i className="flaticon-flasks"></i>
               </span>
@@ -36,7 +36,7 @@ const ServiceSection = () => {
             </a>
           </div>
           <div className="col-md-4 text-center d-flex ">
-            <a href="#seccion-interna" className="services-1">
+            <a href="https://www.example.com" className="services-1">
               <span className="icon">
                 <i className="flaticon-ideas"></i>
               </span>
@@ -47,7 +47,7 @@ const ServiceSection = () => {
           </div>
 
           <div className="col-md-4 text-center d-flex ">
-            <a href="#seccion-interna" className="services-1">
+            <a href="https://www.example.com" className="services-1">
               <span className="icon">
                 <i className="flaticon-analysis"></i>
               </span>
@@ -57,7 +57,7 @@ const ServiceSection = () => {
             </a>
           </div>
           <div className="col-md-4 text-center d-flex ">
-            <a href="#seccion-interna" className="services-1">
+            <a href="https://www.example.com" className="services-1">
               <span className="icon">
                 <i className="flaticon-flasks"></i>
               </span>
@@ -67,7 +67,7 @@ const ServiceSection = () => {
             </a>
           </div>
           <div className="col-md-4 text-center d-flex ">
-            <a href="#seccion-interna" className="services-1">
+            <a href="https://www.example.com" className="services-1">
               <span className="icon">
                 <i className="flaticon-ideas"></i>
               </span>
