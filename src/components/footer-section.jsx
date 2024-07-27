@@ -60,29 +60,29 @@ const FooterSection = () => {
                 <h2 className="ftco-heading-2">Links</h2>
                 <ul className="list-unstyled">
                   <li>
-                    <a href="https://www.example.com">
+                    <a href="#home-section">
                       <span className="icon-long-arrow-right mr-2"></span>Home
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.example.com">
+                    <a href="#about-section">
                       <span className="icon-long-arrow-right mr-2"></span>About
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.example.com">
+                    <a href="#services-section">
                       <span className="icon-long-arrow-right mr-2"></span>
                       Services
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.example.com">
+                    <a href="#projects-section">
                       <span className="icon-long-arrow-right mr-2"></span>
                       Projects
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.example.com">
+                    <a href="#contact-section">
                       <span className="icon-long-arrow-right mr-2"></span>
                       Contact
                     </a>

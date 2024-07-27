@@ -125,7 +125,7 @@ const ContactSection = () => {
 
           <div className="col-md-6 d-flex">
             <div className="img">
-              <img style={estilo} src="/images/about.jpg" alt="" />
+              <img style={estilo} src="/images/IMG_76972.webp" alt="" />
             </div>
           </div>
         </div>

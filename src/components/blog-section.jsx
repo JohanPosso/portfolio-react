@@ -28,10 +28,14 @@ const BlogSection = () => {
         </div>
         <div className="row d-flex">
           {data.map((item, index) => (
-            <div key={index} className="col-md-4  ">
+            <div key={index} className="col-md-4 d-flex ">
               <div className="blog-entry justify-content-end">
                 <a href="single.html" className="block-20">
-                  <img src={`${apiUrl}/image/${item.image}`} alt="Profile" />
+                  <img
+                    style={{ width: "100%" }}
+                    src={`${apiUrl}/image/${item.image}`}
+                    alt="Profile"
+                  />
                 </a>
                 <div className="text mt-3 float-right d-block">
                   <div className="d-flex align-items-center mb-3 meta">

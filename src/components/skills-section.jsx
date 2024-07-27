@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useAxios } from "../boot/AxiosContext";
 import TitleWithLines from "./titlelinea";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const SkillsSection = () => {
   const [data, setData] = useState([]);
@@ -52,12 +53,14 @@ const SkillsSection = () => {
               bis_skin_checked="1"
             >
               <h4>{item.name}</h4>
-              <img
-                className="pm-10"
-                style={{ width: "100px", paddingLeft: "37px" }}
-                src="/images/postgresql.svg"
-                alt=""
-              />
+              <i
+                className={`${item.icon} pm-10`}
+                style={{
+                  width: "100px",
+                  paddingLeft: "37px",
+                  fontSize: "70px",
+                }}
+              ></i>
             </div>
           ))}
         </div>
@@ -71,12 +74,15 @@ const SkillsSection = () => {
               bis_skin_checked="1"
             >
               <h4>{item.name}</h4>
-              <img
-                className="pm-10"
-                style={{ width: "100px", paddingLeft: "37px" }}
-                src="/images/postgresql.svg"
-                alt=""
-              />
+
+              <i
+                className={`${item.icon} pm-10`}
+                style={{
+                  width: "100px",
+                  paddingLeft: "37px",
+                  fontSize: "70px",
+                }}
+              ></i>
             </div>
           ))}
         </div>
@@ -89,12 +95,15 @@ const SkillsSection = () => {
               bis_skin_checked="1"
             >
               <h4>{item.name}</h4>
-              <img
-                className="pm-10"
-                style={{ width: "100px", paddingLeft: "37px" }}
-                src="/images/postgresql.svg"
-                alt=""
-              />
+
+              <i
+                className={`${item.icon} pm-10`}
+                style={{
+                  width: "100px",
+                  paddingLeft: "37px",
+                  fontSize: "70px",
+                }}
+              ></i>
             </div>
           ))}
         </div>
@@ -107,12 +116,14 @@ const SkillsSection = () => {
               bis_skin_checked="1"
             >
               <h4>{item.name}</h4>
-              <img
-                className="pm-10"
-                style={{ width: "100px", paddingLeft: "37px" }}
-                src="/images/postgresql.svg"
-                alt=""
-              />
+              <i
+                className={`${item.icon} pm-10`}
+                style={{
+                  width: "100px",
+                  paddingLeft: "37px",
+                  fontSize: "70px",
+                }}
+              ></i>
             </div>
           ))}
         </div>
