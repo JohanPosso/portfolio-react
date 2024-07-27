@@ -25,7 +25,6 @@ const AboutSection = () => {
               <div className="img-about img d-flex align-items-stretch">
                 <div className="overlay"></div>
                 <div className="img d-flex align-self-stretch align-items-center">
-                  {/* <img src="/images/bg_1.png" style={estilo} alt="" /> */}
                   <img src="/images/IMG_76972.jpg" style={estilo} alt="" />
                 </div>
               </div>

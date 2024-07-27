@@ -9,7 +9,7 @@ const NavBar = () => {
     >
       <div className="container">
         <a className="navbar-brand" href="/">
-          Clark
+          DEV
         </a>
         <button
           className="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"

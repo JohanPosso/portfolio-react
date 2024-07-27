@@ -324,7 +324,6 @@ const ResumeView = () => {
           </div>
         </article>
       </div>
-      {/* <CopyrightComponent /> */}
     </div>
   );
 };

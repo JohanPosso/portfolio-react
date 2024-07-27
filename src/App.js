@@ -20,7 +20,6 @@ function App() {
         {/* Navbar section */}
         <NavBar />
 
-        {/* Define routes */}
         <Routes>
           <Route
             path="/"
