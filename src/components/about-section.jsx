@@ -5,13 +5,12 @@ const AboutSection = () => {
     width: "100%",
   };
   const textAlign = {
-    textAlign: "left",
+    textAlign: "justify",
   };
   const axios = useAxios();
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    // Ejemplo de cómo podrías usar Axios para obtener datos
     axios
       .get("/finduser")
       .then((response) => setData(response.data[0]))

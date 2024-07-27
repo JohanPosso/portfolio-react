@@ -38,7 +38,7 @@ const ContactSection = () => {
               <div className="icon d-flex align-items-center justify-content-center">
                 <span className="icon-map-signs"></span>
               </div>
-              <h3 className="mb-4">Address</h3>
+              <h3 className="mb-4">Location</h3>
               <p>{data.location}</p>
             </div>
           </div>

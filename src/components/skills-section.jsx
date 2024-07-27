@@ -5,7 +5,7 @@ import TitleWithLines from "./titlelinea";
 const SkillsSection = () => {
   const [data, setData] = useState([]);
   const axios = useAxios();
-  console.log(data);
+
   const selectedIdsLanguages = [1, 4, 6];
   const selectedIdsFramework = [2, 3, 5];
   const selectedIdsStyle = [15, 16, 17];

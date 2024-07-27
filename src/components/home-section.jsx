@@ -4,7 +4,6 @@ const HomeSection = () => {
   const axios = useAxios();
   const [data, setData] = useState([]);
   const [socialMedia, setSocialMedia] = useState([]);
-  console.log(socialMedia);
   useEffect(() => {
     const userData = async () => {
       try {
