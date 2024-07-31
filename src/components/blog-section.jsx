@@ -21,8 +21,8 @@ const BlogSection = () => {
             <h1 className="big big-2">Blog</h1>
             <h2 className="mb-4">Our Blog</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia
+              Learn more about me through my writings. In this section, I share
+              my thoughts, experiences, and knowledge on various topics.
             </p>
           </div>
         </div>

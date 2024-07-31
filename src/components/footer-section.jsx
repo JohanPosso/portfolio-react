@@ -31,25 +31,31 @@ const FooterSection = () => {
           <div className="row mb-5">
             <div className="col-md">
               <div className="ftco-footer-widget mb-4">
-                <h2 className="ftco-heading-2">About</h2>
-                <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                </p>
+                {/* <h2 className="ftco-heading-2">About</h2> */}
+                <p> Software Engineer ✌🏾</p>
                 <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                   <li className="">
-                    <a href="https://www.example.com">
-                      <span className="icon-twitter"></span>
+                    <a
+                      className="socialmedia_icon"
+                      href={socialMediaData[1]?.link}
+                    >
+                      <i class="fa-brands fa-linkedin"></i>
                     </a>
                   </li>
                   <li className="">
-                    <a href="https://www.example.com">
-                      <span className="icon-facebook"></span>
+                    <a
+                      className="socialmedia_icon"
+                      href={socialMediaData[0]?.link}
+                    >
+                      <i class="fa-brands fa-github"></i>
                     </a>
                   </li>
                   <li className="">
-                    <a href="https://www.example.com">
-                      <span className="icon-instagram"></span>
+                    <a
+                      className="socialmedia_icon"
+                      href={socialMediaData[2]?.link}
+                    >
+                      <i class="fa-brands fa-x-twitter"></i>
                     </a>
                   </li>
                 </ul>
@@ -96,8 +102,8 @@ const FooterSection = () => {
                 <ul className="list-unstyled">
                   <li>
                     <a href="https://www.example.com">
-                      <span className="icon-long-arrow-right mr-2"></span>Web
-                      Design
+                      <span className="icon-long-arrow-right mr-2"></span>
+                      Process Automation
                     </a>
                   </li>
                   <li>
@@ -114,14 +120,14 @@ const FooterSection = () => {
                   </li>
                   <li>
                     <a href="https://www.example.com">
-                      <span className="icon-long-arrow-right mr-2"></span>Data
-                      Analysis
+                      <span className="icon-long-arrow-right mr-2"></span>
+                      Systems integration
                     </a>
                   </li>
                   <li>
                     <a href="https://www.example.com">
                       <span className="icon-long-arrow-right mr-2"></span>
-                      Graphic Design
+                      Performance Optimization{" "}
                     </a>
                   </li>
                 </ul>
@@ -131,7 +137,13 @@ const FooterSection = () => {
               <div className="ftco-footer-widget mb-4">
                 <h2 className="ftco-heading-2">Have a Questions?</h2>
                 <div className="block-23 mb-3">
-                  <ul>
+                  <ul
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                    }}
+                  >
                     <li>
                       <span className="icon icon-map-marker"></span>
                       <span className="text">{item.location}</span>

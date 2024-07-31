@@ -38,8 +38,9 @@ const SkillsSection = () => {
             <h1 className="big big-2">Skills</h1>
             <h2 className="mb-4">My Skills</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia
+              Discover the tools, technologies, and knowledge I have acquired
+              throughout my career. Each section highlights my key competencies
+              and how I apply them in real projects.
             </p>
           </div>
         </div>

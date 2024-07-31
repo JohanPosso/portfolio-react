@@ -9,8 +9,9 @@ const ServiceSection = () => {
             <h1 className="big big-2">Services</h1>
             <h2 className="mb-4">Services</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia
+              Discover the professional services I offer. From consulting to
+              project development, find out how I can help you achieve your
+              goals.
             </p>
           </div>
         </div>
@@ -21,7 +22,7 @@ const ServiceSection = () => {
                 <i className="flaticon-analysis"></i>
               </span>
               <div className="desc">
-                <h3 className="mb-5">Web Design</h3>
+                <h3 className="mb-5">Database and Cloud Services</h3>
               </div>
             </a>
           </div>
@@ -31,7 +32,7 @@ const ServiceSection = () => {
                 <i className="flaticon-flasks"></i>
               </span>
               <div className="desc">
-                <h3 className="mb-5">Phtography</h3>
+                <h3 className="mb-5">Systems integration</h3>
               </div>
             </a>
           </div>
@@ -52,7 +53,7 @@ const ServiceSection = () => {
                 <i className="flaticon-analysis"></i>
               </span>
               <div className="desc">
-                <h3 className="mb-5">App Developing</h3>
+                <h3 className="mb-5">Performance Optimization</h3>
               </div>
             </a>
           </div>
@@ -62,7 +63,7 @@ const ServiceSection = () => {
                 <i className="flaticon-flasks"></i>
               </span>
               <div className="desc">
-                <h3 className="mb-5">Branding</h3>
+                <h3 className="mb-5">Apps maintenance and support</h3>
               </div>
             </a>
           </div>
@@ -72,7 +73,7 @@ const ServiceSection = () => {
                 <i className="flaticon-ideas"></i>
               </span>
               <div className="desc">
-                <h3 className="mb-5">Product Strategy</h3>
+                <h3 className="mb-5">Process Automation</h3>
               </div>
             </a>
           </div>

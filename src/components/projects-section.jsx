@@ -17,10 +17,11 @@ const ProjectSection = () => {
         <div className="row justify-content-center pb-5">
           <div className="col-md-12 heading-section text-center ">
             <h1 className="big big-2">Projects</h1>
-            <h2 className="mb-4">Our Projects</h2>
+            <h2 className="mb-4">Projects</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia
+              Explore the projects I have completed and contributed to. Each
+              entry showcases my practical experience, problem-solving skills,
+              and the impact of my work.
             </p>
           </div>
         </div>
