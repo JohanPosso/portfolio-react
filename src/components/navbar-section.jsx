@@ -66,7 +66,7 @@ const NavBar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <Link to="/prueba" className="nav-link">
+              <Link to="/cvonline" className="nav-link">
                 <span>CV Online</span>
               </Link>
             </li>
