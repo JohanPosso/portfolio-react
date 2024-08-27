@@ -1,7 +1,20 @@
+@media only screen and (max-width: 600px) {
+  .div-img-profile {
+    width: 100%;
+    position: relative;
+    top: -221px;
+    z-index: 20;
+  }
+  .img-profile {
+    width: 100%;
+  }
+}
+/* ProjectSection */
+
 .container .card {
   position: relative;
   max-width: 300px;
-  height: 215px;
+  height: 180px;
   background-color: #fff;
   margin: 30px 10px;
   padding: 20px 15px;
@@ -20,10 +33,9 @@
   position: relative;
   width: 260px;
   height: 260px;
-
   top: -40%;
   left: 8px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 20px #ffbd3900;
   z-index: 1;
 }
 
@@ -55,7 +67,7 @@
   height: 150px;
   scrollbar-width: none;
 }
-/* Prueba */
+/* ProjectSection */
 
 .socialmedia_icon {
   display: flex;
@@ -64,6 +76,19 @@
   font-size: 27px;
 }
 /* SkillsSection.css */
+.skill-icon {
+  width: 100px;
+  padding-left: 37px;
+  font-size: 70px;
+}
+@media only screen and (max-width: 600px) {
+  .skill-icon {
+    display: none !important;
+  }
+  .titleSkill {
+    font-size: 16px;
+  }
+}
 .cardskills {
   background: rgb(72, 70, 70);
   width: 25rem;

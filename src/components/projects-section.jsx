@@ -32,7 +32,9 @@ const ProjectSection = () => {
                 <div className="card">
                   <div className="image">
                     <img src={`${apiUrl}/image/${item.image}`} alt="Profile" />
-                    <h5 style={{ color: "black" }}> {item.name}</h5>
+                    <a href={item.link}>
+                      <h5 style={{ color: "black" }}> {item.name}</h5>
+                    </a>
                   </div>
                   <div className="content">
                     <div className="div-scrollbar">

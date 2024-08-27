@@ -18,7 +18,7 @@ const AboutSection = () => {
   }, [axios]);
   return (
     <div>
-      <section className="" id="about-section">
+      <section className="mt-5" id="about-section">
         <div className="container">
           <div className="row d-flex">
             <div className="col-md-6 col-lg-5 d-flex">

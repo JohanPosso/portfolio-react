@@ -53,15 +53,8 @@ const SkillsSection = () => {
               className="cardskills container mb-3 col-3 "
               bis_skin_checked="1"
             >
-              <h4>{item.name}</h4>
-              <i
-                className={`${item.icon} pm-10`}
-                style={{
-                  width: "100px",
-                  paddingLeft: "37px",
-                  fontSize: "70px",
-                }}
-              ></i>
+              <h4 className="titleSkill">{item.name}</h4>
+              <i className={`${item.icon} pm-10 skill-icon`}></i>
             </div>
           ))}
         </div>
@@ -74,16 +67,9 @@ const SkillsSection = () => {
               className="cardskills container mb-3 col-3 "
               bis_skin_checked="1"
             >
-              <h4>{item.name}</h4>
+              <h4 className="titleSkill">{item.name}</h4>
 
-              <i
-                className={`${item.icon} pm-10`}
-                style={{
-                  width: "100px",
-                  paddingLeft: "37px",
-                  fontSize: "70px",
-                }}
-              ></i>
+              <i className={`${item.icon} pm-10 skill-icon`}></i>
             </div>
           ))}
         </div>
@@ -95,16 +81,9 @@ const SkillsSection = () => {
               className="cardskills container mb-3 col-3 "
               bis_skin_checked="1"
             >
-              <h4>{item.name}</h4>
+              <h4 className="titleSkill">{item.name}</h4>
 
-              <i
-                className={`${item.icon} pm-10`}
-                style={{
-                  width: "100px",
-                  paddingLeft: "37px",
-                  fontSize: "70px",
-                }}
-              ></i>
+              <i className={`${item.icon} pm-10 skill-icon`}></i>
             </div>
           ))}
         </div>
@@ -116,15 +95,8 @@ const SkillsSection = () => {
               className="cardskills container mb-3 col-3 "
               bis_skin_checked="1"
             >
-              <h4>{item.name}</h4>
-              <i
-                className={`${item.icon} pm-10`}
-                style={{
-                  width: "100px",
-                  paddingLeft: "37px",
-                  fontSize: "70px",
-                }}
-              ></i>
+              <h4 className="titleSkill">{item.name}</h4>
+              <i className={`${item.icon} pm-10 skill-icon`}></i>
             </div>
           ))}
         </div>

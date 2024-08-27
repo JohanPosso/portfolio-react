@@ -44,7 +44,13 @@ const HomeSection = () => {
                 data-scrollax-parent="true"
               >
                 <div className="one-third js-fullheight order-md-last img">
-                  {/* <img src="/images/userprofile.webp" alt="" /> */}
+                  <div className="div-img-profile">
+                    <img
+                      className="img-profile"
+                      src="/images/userprofile.webp"
+                      alt=""
+                    />
+                  </div>
 
                   <div className="overlay"></div>
                 </div>

@@ -148,12 +148,7 @@ const FooterSection = () => {
                       <span className="icon icon-map-marker"></span>
                       <span className="text">{item.location}</span>
                     </li>
-                    <li>
-                      <a href="https://www.example.com">
-                        <span className="icon icon-phone"></span>
-                        <span className="text">+2 392 3929 210</span>
-                      </a>
-                    </li>
+
                     <li>
                       <a href="https://www.example.com">
                         <span className="icon icon-envelope"></span>

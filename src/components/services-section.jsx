@@ -17,65 +17,65 @@ const ServiceSection = () => {
         </div>
         <div className="row">
           <div className="col-md-4 text-center d-flex ">
-            <a href="https://www.example.com" className="services-1">
+            <div className="services-1">
               <span className="icon">
                 <i className="flaticon-analysis"></i>
               </span>
               <div className="desc">
                 <h3 className="mb-5">Database and Cloud Services</h3>
               </div>
-            </a>
+            </div>
           </div>
           <div className="col-md-4 text-center d-flex ">
-            <a href="https://www.example.com" className="services-1">
+            <div className="services-1">
               <span className="icon">
                 <i className="flaticon-flasks"></i>
               </span>
               <div className="desc">
                 <h3 className="mb-5">Systems integration</h3>
               </div>
-            </a>
+            </div>
           </div>
           <div className="col-md-4 text-center d-flex ">
-            <a href="https://www.example.com" className="services-1">
+            <div className="services-1">
               <span className="icon">
                 <i className="flaticon-ideas"></i>
               </span>
               <div className="desc">
                 <h3 className="mb-5">Web Developer</h3>
               </div>
-            </a>
+            </div>
           </div>
 
           <div className="col-md-4 text-center d-flex ">
-            <a href="https://www.example.com" className="services-1">
+            <div className="services-1">
               <span className="icon">
                 <i className="flaticon-analysis"></i>
               </span>
               <div className="desc">
                 <h3 className="mb-5">Performance Optimization</h3>
               </div>
-            </a>
+            </div>
           </div>
           <div className="col-md-4 text-center d-flex ">
-            <a href="https://www.example.com" className="services-1">
+            <div className="services-1">
               <span className="icon">
                 <i className="flaticon-flasks"></i>
               </span>
               <div className="desc">
                 <h3 className="mb-5">Apps maintenance and support</h3>
               </div>
-            </a>
+            </div>
           </div>
           <div className="col-md-4 text-center d-flex ">
-            <a href="https://www.example.com" className="services-1">
+            <div className="services-1">
               <span className="icon">
                 <i className="flaticon-ideas"></i>
               </span>
               <div className="desc">
                 <h3 className="mb-5">Process Automation</h3>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
