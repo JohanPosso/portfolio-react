@@ -28,16 +28,15 @@ const ProjectSection = () => {
         <div className="row">
           {data.map((item, index) => (
             <div key={index} className="col-md-4">
-              <div className="card card-efect">
-                <img src={`${apiUrl}/image/${item.image}`} alt="Profile" />
-                <div className="badge mt-1 mb-0">
-                  <span className="badge red">JavaScript</span>
-                  <span className="badge blue">Python</span>
-                  <span className="badge red">JavaScript</span>
-                  <span className="badge blue">Python</span>
-                </div>
-                <div className="card-body py-1">
-                  <p className="card-text">{item.name}</p>
+              <div className="container">
+                <div className="card">
+                  <div className="image">
+                    <img src={`${apiUrl}/image/${item.image}`} alt="Profile" />
+                  </div>
+                  <div className="content">
+                    <h3 style={{ color: "black" }}> {item.name}</h3>
+                    <p>{item.description}</p>
+                  </div>
                 </div>
               </div>
             </div>
