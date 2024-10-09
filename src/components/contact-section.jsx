@@ -1,5 +1,6 @@
 import { React, useEffect, useState } from "react";
 import { useAxios } from "../boot/AxiosContext";
+
 const ContactSection = () => {
   const estilo = {
     width: "100%",
@@ -7,12 +8,45 @@ const ContactSection = () => {
 
   const axios = useAxios();
   const [data, setData] = useState([]);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+  const [alertMessage, setAlertMessage] = useState(""); // Para manejar mensajes de alerta
+  const [alertType, setAlertType] = useState("success"); // Para manejar el tipo de alerta
+
   useEffect(() => {
     axios
       .get("/finduser")
       .then((response) => setData(response.data[0]))
       .catch((error) => console.error("Error al cargar datos:", error));
   }, [axios]);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const result = await axios.post("/sendmail", formData);
+      setAlertMessage(result.data.message); // Almacenar mensaje de éxito
+      setAlertType("success"); // Establecer tipo de alerta como éxito
+      setFormData({ name: "", email: "", subject: "", message: "" }); // Limpiar el formulario
+    } catch (error) {
+      setAlertMessage("Email no enviado"); // Almacenar mensaje de error
+      setAlertType("danger"); // Establecer tipo de alerta como peligro
+    }
+
+    // Ocultar la alerta después de 4 segundos
+    setTimeout(() => {
+      setAlertMessage(""); // Limpiar el mensaje de alerta
+    }, 4000);
+  };
 
   return (
     <section
@@ -21,7 +55,7 @@ const ContactSection = () => {
     >
       <div className="container">
         <div className="row justify-content-center mb-5 pb-3">
-          <div className="col-md-7 heading-section text-center ">
+          <div className="col-md-7 heading-section text-center">
             <h1 className="big big-2">Contact</h1>
             <h2 className="mb-4">Contact Me</h2>
             <p>
@@ -33,6 +67,7 @@ const ContactSection = () => {
         </div>
 
         <div className="row d-flex contact-info mb-5">
+          {/* Información de contacto */}
           <div className="col-md-6 col-lg-3 d-flex ">
             <div className="align-self-stretch box p-4 text-center">
               <div className="icon d-flex align-items-center justify-content-center">
@@ -60,7 +95,7 @@ const ContactSection = () => {
               </div>
               <h3 className="mb-4">Email Address</h3>
               <p>
-                <a href="mailto:info@yoursite.com">{data.email}</a>
+                <a href="mailto:johan.posito@gmail.com">{data.email}</a>
               </p>
             </div>
           </div>
@@ -76,41 +111,56 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
+
         <div className="row no-gutters block-9">
           <div className="col-md-6 order-md-last d-flex">
             <form
-              action="https://example.com"
+              onSubmit={handleSubmit}
               className="bg-light p-4 p-md-5 contact-form"
             >
               <div className="form-group">
                 <input
                   type="text"
                   className="form-control"
+                  name="name"
                   placeholder="Your Name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
                 />
               </div>
               <div className="form-group">
                 <input
-                  type="text"
+                  type="email"
                   className="form-control"
+                  name="email"
                   placeholder="Your Email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
                 />
               </div>
               <div className="form-group">
                 <input
                   type="text"
                   className="form-control"
+                  name="subject"
                   placeholder="Subject"
+                  value={formData.subject}
+                  onChange={handleChange}
+                  required
                 />
               </div>
               <div className="form-group">
                 <textarea
-                  name=""
-                  id=""
                   cols="30"
                   rows="7"
                   className="form-control"
+                  name="message"
                   placeholder="Message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
                 ></textarea>
               </div>
               <div className="form-group">
@@ -120,6 +170,16 @@ const ContactSection = () => {
                   className="btn btn-primary py-3 px-5"
                 />
               </div>
+              {/* Mostrar mensaje de alerta */}
+              {alertMessage && (
+                <div
+                  className={`alert alert-${alertType}`} // Cambia el tipo de alerta según el estado
+                  style={{ position: "static" }}
+                  role="alert"
+                >
+                  {alertMessage}
+                </div>
+              )}
             </form>
           </div>
 

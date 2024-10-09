@@ -31,8 +31,11 @@ const ProjectSection = () => {
               <div className="container">
                 <div className="card">
                   <div className="image">
-                    <img src={`${apiUrl}/image/${item.image}`} alt="Profile" />
                     <a href={item.link}>
+                      <img
+                        src={`${apiUrl}/image/${item.image}`}
+                        alt="Profile"
+                      />
                       <h5 style={{ color: "black" }}> {item.name}</h5>
                     </a>
                   </div>

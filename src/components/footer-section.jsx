@@ -39,7 +39,7 @@ const FooterSection = () => {
                       className="socialmedia_icon"
                       href={socialMediaData[1]?.link}
                     >
-                      <i class="fa-brands fa-linkedin"></i>
+                      <i className="fa-brands fa-linkedin"></i>
                     </a>
                   </li>
                   <li className="">
@@ -47,7 +47,7 @@ const FooterSection = () => {
                       className="socialmedia_icon"
                       href={socialMediaData[0]?.link}
                     >
-                      <i class="fa-brands fa-github"></i>
+                      <i className="fa-brands fa-github"></i>
                     </a>
                   </li>
                   <li className="">
@@ -55,7 +55,7 @@ const FooterSection = () => {
                       className="socialmedia_icon"
                       href={socialMediaData[2]?.link}
                     >
-                      <i class="fa-brands fa-x-twitter"></i>
+                      <i className="fa-brands fa-x-twitter"></i>
                     </a>
                   </li>
                 </ul>
@@ -101,34 +101,24 @@ const FooterSection = () => {
                 <h2 className="ftco-heading-2">Services</h2>
                 <ul className="list-unstyled">
                   <li>
-                    <a href="https://www.example.com">
-                      <span className="icon-long-arrow-right mr-2"></span>
-                      Process Automation
-                    </a>
+                    <span className="icon-long-arrow-right mr-2"></span>
+                    Process Automation
                   </li>
                   <li>
-                    <a href="https://www.example.com">
-                      <span className="icon-long-arrow-right mr-2"></span>Web
-                      Development
-                    </a>
+                    <span className="icon-long-arrow-right mr-2"></span>Web
+                    Development
                   </li>
                   <li>
-                    <a href="https://www.example.com">
-                      <span className="icon-long-arrow-right mr-2"></span>
-                      Business Strategy
-                    </a>
+                    <span className="icon-long-arrow-right mr-2"></span>
+                    Business Strategy
                   </li>
                   <li>
-                    <a href="https://www.example.com">
-                      <span className="icon-long-arrow-right mr-2"></span>
-                      Systems integration
-                    </a>
+                    <span className="icon-long-arrow-right mr-2"></span>
+                    Systems integration
                   </li>
                   <li>
-                    <a href="https://www.example.com">
-                      <span className="icon-long-arrow-right mr-2"></span>
-                      Performance Optimization{" "}
-                    </a>
+                    <span className="icon-long-arrow-right mr-2"></span>
+                    Performance Optimization{" "}
                   </li>
                 </ul>
               </div>
@@ -150,10 +140,8 @@ const FooterSection = () => {
                     </li>
 
                     <li>
-                      <a href="https://www.example.com">
-                        <span className="icon icon-envelope"></span>
-                        <span className="text">{item.email}</span>
-                      </a>
+                      <span className="icon icon-envelope"></span>
+                      <span className="text">{item.email}</span>
                     </li>
                   </ul>
                 </div>

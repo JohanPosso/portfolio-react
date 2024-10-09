@@ -80,7 +80,7 @@ const AboutSection = () => {
                       className="btn btn-primary py-3 px-3 me-2"
                     >
                       <div style={{ fontSize: "12px", marginTop: "-4px" }}>
-                        <i class="fa-solid fa-download"></i>
+                        <i className="fa-solid fa-download"></i>
                         CV Spanish
                       </div>
                     </a>
@@ -89,12 +89,12 @@ const AboutSection = () => {
                 <div className="text">
                   <div>
                     <a
-                      href="/Jesus_Posso_CV.pdf"
-                      download="/Jesus_Posso_CV.pdf"
+                      href="/CV-English-JohanPosso.pdf"
+                      download="/CV-English-JohanPosso.pdf"
                       className="btn btn-primary py-3 px-3"
                     >
                       <div style={{ fontSize: "12px", marginTop: "-4px" }}>
-                        <i class="fa-solid fa-download"></i>
+                        <i className="fa-solid fa-download"></i>
                         CV English
                       </div>
                     </a>
