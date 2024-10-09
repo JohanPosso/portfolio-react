@@ -73,7 +73,8 @@ const SkillsSection = () => {
             </div>
           ))}
         </div>
-        <TitleWithLines title="Markup & Style" />
+        <TitleWithLines title="Other Tools & Technologies" />
+
         <div style={{ gridGap: "2px" }} className="row">
           {itemsToShowStyle.map((item, index) => (
             <div
@@ -87,7 +88,6 @@ const SkillsSection = () => {
             </div>
           ))}
         </div>
-        <TitleWithLines title="Other Tools & Technologies" />
         <div style={{ gridGap: "2px" }} className="row">
           {itemsToShowOthers.map((item, index) => (
             <div

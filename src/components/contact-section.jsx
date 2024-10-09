@@ -106,7 +106,9 @@ const ContactSection = () => {
               </div>
               <h3 className="mb-4">Website</h3>
               <p>
-                <a href="https://example.com">yoursite.com</a>
+                <a href="https://www.linkedin.com/in/jesusposso/">
+                  jesusposso.com
+                </a>
               </p>
             </div>
           </div>
