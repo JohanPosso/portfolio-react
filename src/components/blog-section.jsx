@@ -19,10 +19,11 @@ const BlogSection = () => {
         <div className="row justify-content-center mb-5 pb-5">
           <div className="col-md-7 heading-section text-center ">
             <h1 className="big big-2">Blog</h1>
-            <h2 className="mb-4">Our Blog</h2>
+            <h2 className="mb-4">Blog</h2>
             <p>
-              Learn more about me through my writings. In this section, I share
-              my thoughts, experiences, and knowledge on various topics.
+              Conozca más sobre mí a través de mis escritos. En esta sección
+              comparto mis pensamientos, experiencias y conocimientos sobre
+              diversos temas.
             </p>
           </div>
         </div>

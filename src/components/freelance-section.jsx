@@ -6,11 +6,11 @@ const FreelanceSection = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-7 text-center">
-            <h2>I'm Available for freelancing</h2>
+            <h2>Estoy disponible para trabajar como freelancer</h2>
             <p className="text-dark">
-              I am also available for freelance opportunities. Whether you need
-              a short-term project or ongoing support, feel free to reach out
-              and let's discuss how we can work together.
+              También estoy disponible para trabajar como freelance. Tanto si
+              necesita un proyecto a corto plazo o un apoyo continuo, no dude en
+              ponerse en contacto y hablemos de cómo podemos trabajar juntos.
             </p>
           </div>
         </div>

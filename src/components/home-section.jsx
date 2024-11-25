@@ -79,7 +79,7 @@ const HomeSection = () => {
                         className="btn btn-primary py-3 px-4"
                       >
                         <div style={{ fontSize: "14px", marginTop: "-4px" }}>
-                          Hire me
+                          Contacto
                         </div>
                       </a>
                       <a

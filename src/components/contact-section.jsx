@@ -56,12 +56,13 @@ const ContactSection = () => {
       <div className="container">
         <div className="row justify-content-center mb-5 pb-3">
           <div className="col-md-7 heading-section text-center">
-            <h1 className="big big-2">Contact</h1>
-            <h2 className="mb-4">Contact Me</h2>
+            <h1 className="big big-2">Contacto</h1>
+            <h2 className="mb-4">Contactame</h2>
             <p>
-              Are you interested in hiring me for your project or simply want to
-              say hello? You can fill out the contact form below or send me an
-              email at johan.posito@gmail.com.
+              ¿Estás interesado en contratarme para tu proyecto o simplemente
+              quieres saludarme? Puedes rellenar el siguiente formulario de
+              contacto o enviarme un correo electrónico a
+              johan.posito@gmail.com.
             </p>
           </div>
         </div>
@@ -168,7 +169,7 @@ const ContactSection = () => {
               <div className="form-group">
                 <input
                   type="submit"
-                  value="Send Message"
+                  value="Enviar mensaje"
                   className="btn btn-primary py-3 px-5"
                 />
               </div>

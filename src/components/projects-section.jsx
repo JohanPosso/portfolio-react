@@ -16,12 +16,12 @@ const ProjectSection = () => {
       <div className="container">
         <div className="row justify-content-center pb-5">
           <div className="col-md-12 heading-section text-center ">
-            <h1 className="big big-2">Projects</h1>
-            <h2 className="mb-4">Projects</h2>
+            <h1 className="big big-2">Proyectos</h1>
+            <h2 className="mb-4">Proyectos</h2>
             <p>
-              Explore the projects I have completed and contributed to. Each
-              entry showcases my practical experience, problem-solving skills,
-              and the impact of my work.
+              Explore los proyectos que he realizado y a los que he contribuido.
+              Cada entrada muestra mi experiencia práctica, mi capacidad para
+              resolver problemas y la repercusión de mi trabajo.
             </p>
           </div>
         </div>

@@ -6,12 +6,12 @@ const ServiceSection = () => {
       <div className="container">
         <div className="row justify-content-center py-5 mt-5">
           <div className="col-md-12 heading-section text-center ">
-            <h1 className="big big-2">Services</h1>
-            <h2 className="mb-4">Services</h2>
+            <h1 className="big big-2">Servicios</h1>
+            <h2 className="mb-4">Servicios</h2>
             <p>
-              Discover the professional services I offer. From consulting to
-              project development, find out how I can help you achieve your
-              goals.
+              Descubra los servicios profesionales que ofrezco. Desde
+              consultoría desarrollo de proyectos, descubra cómo puedo ayudarle
+              a alcanzar sus objetivos.
             </p>
           </div>
         </div>

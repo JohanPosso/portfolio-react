@@ -92,12 +92,7 @@ const AboutSection = () => {
                       href="/CV-English-JohanPosso.pdf"
                       download="/CV-English-JohanPosso.pdf"
                       className="btn btn-primary py-3 px-3"
-                    >
-                      <div style={{ fontSize: "12px", marginTop: "-4px" }}>
-                        <i className="fa-solid fa-download"></i>
-                        CV English
-                      </div>
-                    </a>
+                    ></a>
                   </div>
                 </div>
               </div>
