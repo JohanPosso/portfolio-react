@@ -167,7 +167,7 @@ const ResumeView = () => {
               <div className="col-12 col-md-3 col-xl-2 text-center">
                 <img
                   className="resume-profile-image mb-3 mb-md-0 me-md-5 ms-md-0 rounded mx-auto"
-                  src={"/images/useresume.webp"}
+                  src="/images/useresume.webp"
                   alt="Profile"
                 />
               </div>
