@@ -73,25 +73,16 @@ const AboutSection = () => {
               </div>
               <div className="counter-wrap d-flex mt-md-3">
                 <div className="text ">
-                  <div>
-                    <a
-                      href="/Jesus_Posso_CV.pdf"
-                      download="/Jesus_Posso_CV.pdf"
-                      className="btn btn-primary py-3 px-3 me-2"
-                    >
-                      <div style={{ fontSize: "12px", marginTop: "-4px" }}>
-                        <i className="fa-solid fa-download"></i>
-                        CV Spanish
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="text">
                   <a
-                    href="/CV-English-JohanPosso.pdf"
-                    download="/CV-English-JohanPosso.pdf"
-                    className="btn btn-primary py-3 px-3"
-                  ></a>
+                    href="/Jesus_Posso_CV.pdf"
+                    download="/Jesus_Posso_CV.pdf"
+                    className="btn btn-primary py-3 px-3 me-2"
+                  >
+                    <div style={{ fontSize: "12px", marginTop: "-4px" }}>
+                      <i className="fa-solid fa-download"></i>
+                      CV Spanish
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
