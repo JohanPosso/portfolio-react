@@ -87,13 +87,11 @@ const AboutSection = () => {
                   </div>
                 </div>
                 <div className="text">
-                  <div>
-                    <a
-                      href="/CV-English-JohanPosso.pdf"
-                      download="/CV-English-JohanPosso.pdf"
-                      className="btn btn-primary py-3 px-3"
-                    ></a>
-                  </div>
+                  <a
+                    href="/CV-English-JohanPosso.pdf"
+                    download="/CV-English-JohanPosso.pdf"
+                    className="btn btn-primary py-3 px-3"
+                  ></a>
                 </div>
               </div>
             </div>
