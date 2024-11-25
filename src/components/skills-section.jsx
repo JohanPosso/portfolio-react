@@ -7,10 +7,10 @@ const SkillsSection = () => {
   const [data, setData] = useState([]);
   const axios = useAxios();
 
-  const selectedIdsLanguages = [1, 4, 6];
-  const selectedIdsFramework = [2, 3, 5];
+  const selectedIdsLanguages = [1, 4, 6, 10];
+  const selectedIdsFramework = [2, 3, 5, 9];
   const selectedIdsStyle = [15, 16, 17];
-  const selectedIdsOthers = [14, 18, 19, 20, 21, 22];
+  const selectedIdsOthers = [7, 8];
 
   const itemsToShow = data.filter((item) =>
     selectedIdsLanguages.includes(item.id)
