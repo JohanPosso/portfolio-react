@@ -85,7 +85,7 @@ const ContactSection = () => {
               </div>
               <h3 className="mb-4">Contact Number</h3>
               <p>
-                <a href="tel://1234567920">+ 1235 2355 98</a>
+                <a href="tel://1234567920">{data.phone}</a>
               </p>
             </div>
           </div>

@@ -74,8 +74,8 @@ const AboutSection = () => {
               <div className="counter-wrap d-flex mt-md-3">
                 <div className="text ">
                   <a
-                    href="/Jesus_Posso_CV.pdf"
-                    download="/Jesus_Posso_CV.pdf"
+                    href="/JESUS_POSSO_CV_ES.pdf"
+                    download="/JESUS_POSSO_CV_ES.pdf"
                     className="btn btn-primary py-3 px-3 me-2"
                   >
                     <div style={{ fontSize: "12px", marginTop: "-4px" }}>
