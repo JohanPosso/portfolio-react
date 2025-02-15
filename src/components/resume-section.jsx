@@ -21,7 +21,7 @@ const ResumeSection = () => {
     const fetchExperienceData = async () => {
       try {
         const experienceResponse = await axios.get("/findexperience");
-        setDataExperience(experienceResponse.data);
+        setDataExperience(experienceResponse.data.reverse().slice(-4));
       } catch (error) {
         console.error("Error al cargar datos de experiencia:", error);
         setError("Error al cargar datos de experiencia");
